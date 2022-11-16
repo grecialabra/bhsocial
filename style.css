@@ -1,0 +1,28 @@
+
+.footer{
+    position: absolute;
+    height: 420px;
+    width: 1440;
+    top: 5544px;
+    background-color:#F8CEDE;
+    box-shadow: inset 0px 4px 20px 25px #ECBABA;
+}
+.navbar{
+    background-color: #F8CEDE;
+}
+.navbar-brand{
+    font-family: Loca;
+}
+.offcanvas{
+    background-color: #ECBABA;
+    font-family: Hepta Slab;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.logo-offset{
+    size:250px;
+    box-align: center;
+}
