@@ -1,16 +1,15 @@
 
 .footer{
-    position: absolute;
     height: 420px;
-    width: 1440;
-    top: 5544px;
     background-color:#F8CEDE;
     box-shadow: inset 0px 4px 20px 25px #ECBABA;
+    
 }
 .navbar{
     background-color: #F8CEDE;
     height: 75px;
     align-content: center;
+    box-shadow: 1px 10px 70px 100px #F8CEDE;
 }
 .navbar-brand{
     font-family: Hepta Slab;
@@ -27,4 +26,11 @@
 .logo-offset{
     size:250px;
     box-align: center;
+}
+.carousel-inner{
+    height: 800px;
+}
+.logo{
+    align-items: center;
+    size: 300px;
 }
