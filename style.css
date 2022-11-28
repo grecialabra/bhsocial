@@ -14,7 +14,7 @@
 .navbar-brand{
     font-family: Hurricane;
 }
-.offcanvas{
+.offcanvas,.col-form-label{
     background-color: #ECBABA;
     font-family: Helpa Slab;
     font-size: 20px;
@@ -40,4 +40,25 @@
     top: 0;
     left: 0;
     min-height: 500px;
+}
+.fter{
+    text-align: center;
+    margin-top: 70px;
+}
+.vl{
+    border-right: 1px solid black;
+    height: 300px;
+}
+.fter-header{
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: beige;
+    background: fixed;
+}
+.btn{
+    background-color: #A22D5A;
 }
