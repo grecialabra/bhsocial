@@ -34,6 +34,10 @@
     align-items: center;
     size: 300px;
 }
+.logo-fter{
+    height: 55px;
+    width: 55px;
+}
 .carousel-item img{
     position: absolute;
     object-fit:cover;
@@ -44,6 +48,9 @@
 .fter{
     text-align: center;
     margin-top: 70px;
+    font-family: Helpa Slab;
+    font-size: 23px;
+    margin-top:50px;
 }
 .vl{
     border-right: 1px solid black;
@@ -56,9 +63,34 @@
     line-height: 30px;
     letter-spacing: 0em;
     text-align: center;
-    background-color: beige;
-    background: fixed;
+    background: rgb(241, 241, 226);
+    border: #A22D5A, 5px;
 }
 .btn{
     background-color: #A22D5A;
+}
+.btn:hover{
+    background-color: #c25d84;
+    opacity: 0.85;
+}
+iframe{
+    height: 130.71px;
+    width: 400.88px;
+}
+.a-item{
+    height: 480px;
+    
+}
+
+.a-img {
+    height: 100%;
+    object-fit:cover;
+    filter: brightness(o.6);
+}
+span{
+    color: black;
+}
+.footer hr{
+    color: #F8CEDE;
+    margin: 8px;
 }
