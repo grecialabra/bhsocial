@@ -1,11 +1,11 @@
 
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: black;
 }
 .footer{
-    height: 420px;
+    height: 350px;
     background-color:#F8CEDE;
-    box-shadow: inset 0px 4px 20px 25px #ECBABA;
+    box-shadow: inset 0px 2px 15px 20px #ECBABA;
     position: absolute;
 }
 #myBtn {
@@ -31,14 +31,14 @@ body{
     background-color: #F8CEDE;
     height: 35px;
     align-content: center;
-    box-shadow: 1px 10px 70px 100px #F8CEDE;
+    box-shadow: 1px 10px 35px 100px #F8CEDE;
 }
 .navbar-header-logo{
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
 }
 .navbar-brand{
-    margin-left: 631px;
+    margin-left: justify;
     margin-right: auto;
     margin-top: 90px;
 }
@@ -58,7 +58,9 @@ body{
     margin-right: auto;
 }
 .carousel-inner{
-    height: 800px;
+    height: 900px;
+    margin-top: 30px;
+    width: auto;
 }
 .logo{
     align-items: center;
@@ -79,8 +81,8 @@ body{
     text-align: center;
     margin-top: 70px;
     font-family: Helpa Slab;
-    font-size: 23px;
-    margin-top:50px;
+    font-size: 18px;
+    margin-top:35px;
 }
 .vl{
     border-right: 1px solid black;
@@ -90,7 +92,7 @@ body{
     font-family: 'Nanum Myeongjo', serif;
     font-size: 28px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 20px;
     letter-spacing: 0em;
     text-align: center;
     border-style: solid;
@@ -112,8 +114,8 @@ body{
     opacity: 0.85;
 }
 iframe{
-    height: 130.71px;
-    width: 400.88px;
+    height: auto;
+    width: auto;
 }
 .a-item{
     height: 480px;
@@ -125,7 +127,7 @@ iframe{
     object-fit:cover;
     filter: brightness(o.6);
 }
-span{
+span, hr{
     color: black;
 }
 .footer hr{
@@ -133,8 +135,8 @@ span{
     margin: 8px;
 }
 #section-split{
-    text-align: justify;
+    text-align: center;
     font-family: 'Bad Script', cursive;
-    font-size: 20px;
-    margin-right: 750px;
+    font-size: 17px;
+    background-color: rgb(255, 255, 255);
 }
