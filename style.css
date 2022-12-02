@@ -1,6 +1,6 @@
 
 body{
-    background-color: black;
+    background-color:black;
 }
 .footer{
     height: 350px;
@@ -27,11 +27,13 @@ body{
     border-width: 10px;
     border-color: white;
   }
+  #block-one{
+    background-color: #F8CEDE;
+  }
 .navbar{
     background-color: #F8CEDE;
-    height: 35px;
+    height: 70px;
     align-content: center;
-    box-shadow: 1px 10px 35px 100px #F8CEDE;
 }
 .navbar-header-logo{
     height: 100px;
@@ -40,7 +42,7 @@ body{
 .navbar-brand{
     margin-left: justify;
     margin-right: auto;
-    margin-top: 90px;
+    
 }
 .offcanvas,.col-form-label{
     background-color: #ECBABA;
@@ -58,9 +60,9 @@ body{
     margin-right: auto;
 }
 .carousel-inner{
-    height: 900px;
-    margin-top: 30px;
+    height: 930px;
     width: auto;
+    background-color: black;
 }
 .logo{
     align-items: center;
@@ -138,5 +140,11 @@ span, hr{
     text-align: center;
     font-family: 'Bad Script', cursive;
     font-size: 17px;
-    background-color: rgb(255, 255, 255);
+    background-color: #f5efe9;
+    height: 750px;
+}
+#section-split hr{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
 }
