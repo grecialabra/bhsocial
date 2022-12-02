@@ -1,6 +1,6 @@
 
 body{
-    background-color:black;
+    background-color:#F8CEDE;
 }
 .footer{
     height: 350px;
@@ -26,18 +26,16 @@ body{
     background-color: black;
     border-width: 10px;
     border-color: white;
-  }
-  #block-one{
-    background-color: #F8CEDE;
-  }
+  } 
 .navbar{
     background-color: #F8CEDE;
     height: 70px;
     align-content: center;
+    box-shadow: 2px 2px 10px 8px #F8CEDE;
 }
 .navbar-header-logo{
-    height: 100px;
-    width: 100px;
+    height: 90px;
+    width: 90px;
 }
 .navbar-brand{
     margin-left: justify;
@@ -53,16 +51,16 @@ body{
     letter-spacing: 0em;
     text-align: center;
 }
-.offcanvas-header img{
-    height: 150px;
-    width: 150px;
-    margin-left: 105px;
+.offcanvas-body img{
+    height: 200px;
+    width: 200px;
+    margin-left: 80px;
     margin-right: auto;
 }
 .carousel-inner{
-    height: 930px;
+    height: 950px;
     width: auto;
-    background-color: black;
+    background-color: #F8CEDE;
 }
 .logo{
     align-items: center;
@@ -147,4 +145,31 @@ span, hr{
     width: 400px;
     margin-left: auto;
     margin-right: auto;
+}
+#block-two{
+    background-color: #d1d4da;
+    height: 750px;
+}
+#block-two img{
+    height: 450px;
+    width: 650px;
+    margin-left: 150px;
+    margin-right: auto;
+    margin-top: 100px;
+}
+#block-three{
+    background-color: black;
+    height: 800px;
+    color: white;
+}
+#block-four{
+    height: 800px;
+    background-color:#6f4188;
+}
+#block-four img{
+    height: 300px;
+    width: 450px;
+    margin-right: auto;
+    margin-left: 850px;
+    margin-top: 70px
 }
