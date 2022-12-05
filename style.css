@@ -1,3 +1,4 @@
+html, 
 body{
     background-color:black;
     margin: 0;
@@ -78,12 +79,27 @@ body{
     height: 55px;
     width: 55px;
 }
+.overlay { 
+    color: white;
+    position:absolute;
+    z-index:12;
+    top:40%;
+    left:0;
+    width:100%;
+    text-align:center;
+    font-family: lora;
+    font-size: 80px;
+  }
+  .overlay-subheader{
+    font-size: 45px;
+  }
 .carousel-item img{
     position: absolute;
     object-fit:cover;
     top: 0;
     left: 0;
     min-height: 500px;
+    filter: brightness(80%);
 }
 .fter{
     text-align: center;
@@ -201,7 +217,7 @@ span, hr{
     width: auto;
 }
 .b3txt{
-    margin-left: 150px;
+    margin-left: 120px;
     color: black;
     font-size: 25px;
     font-family: Helpa Slab;
@@ -210,7 +226,7 @@ span, hr{
     letter-spacing: 5px;
     font-size: 60px;
     font-family: 'Oranienbaum', serif;
-    margin-left: 150px;
+    margin-left: 120px;
     margin-right: auto;
     margin-top: 250px;
     color: black;
@@ -220,7 +236,7 @@ span, hr{
     height: 450px;
     width: 650px;
     margin-left: auto;
-    margin-right: 150px;
+    margin-right: 85px;
     margin-top: 170px;
     border: white solid 30px;
     max-width: 100%;
@@ -231,12 +247,13 @@ span, hr{
     height: 100%;
     background-color:white;
     width: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 #block-four img{
     height: 300px;
     width: 450px;
     margin-top: 70px;
-    justify-items: left;
 }
 .section-txt{
     border: #f5efe9 solid 5px;
@@ -288,15 +305,18 @@ a{
     text-align: right;
 }
 .galleryrow img{
-    margin-left: 100px;
+    margin-left: 80px;
     margin-right: auto;
     margin-bottom: 100px;
     background: url(gallery2.png);
     box-shadow: -24px 24px 0px #000000;
 }
+#carousel-gallery .carousel-inner{
+    background-color: #f5efe9;
+}
 .galcol img{
-    height: 400px;
-    width: 400px;
+    height: 40vh;
+    width: 40vh;
 }
 .top3{
     margin-top: 200px;
