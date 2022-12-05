@@ -146,9 +146,9 @@ span, hr{
     text-align: center;
     font-family: 'Bad Script', cursive;
     font-size: 17px;
-    height: 100%;
     background-image: url('img/home-bg-one.png');
     background-size: cover;
+    height: 100%;
 }
 #section-split hr{
     width: 400px;
@@ -180,7 +180,7 @@ span, hr{
 #block-two{
     background-color: black;
     background-size: cover;
-    height:100%;
+    height: 100%;
     width: auto;
 }
 #block-two img{
