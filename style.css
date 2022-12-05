@@ -1,6 +1,19 @@
 
+html, 
 body{
-    background-color:#F8CEDE;
+    background-color:black;
+    margin: 0;
+    height:100%;
+    width:100%;
+    padding:0;
+}
+.carousel,
+.item,
+.active{
+    height:100%;
+}
+ .carousel-inner{
+     height:100%;
 }
 .footer{
     height: 350px;
@@ -36,13 +49,15 @@ body{
 .navbar-header-logo{
     height: 90px;
     width: 90px;
+    margin-left: justify;
 }
 .navbar-brand{
     margin-left: justify;
     margin-right: auto;
     
 }
-.offcanvas,.col-form-label{
+.offcanvas,
+.col-form-label{
     background-color: #ECBABA;
     font-family: Helpa Slab;
     font-size: 20px;
@@ -60,7 +75,7 @@ body{
 .carousel-inner{
     height: 950px;
     width: auto;
-    background-color: #F8CEDE;
+    background-color: black;
 }
 .logo{
     align-items: center;
@@ -138,8 +153,9 @@ span, hr{
     text-align: center;
     font-family: 'Bad Script', cursive;
     font-size: 17px;
-    background-color: #f5efe9;
     height: 750px;
+    background-image: url('img/home-bg-one.png');
+    background-size: cover;
 }
 #section-split hr{
     width: 400px;
@@ -147,8 +163,10 @@ span, hr{
     margin-right: auto;
 }
 #block-two{
-    background-color: #d1d4da;
-    height: 750px;
+    background-color: black;
+    background-size: cover;
+    height:800px;
+    width: auto;
 }
 #block-two img{
     height: 450px;
@@ -158,18 +176,27 @@ span, hr{
     margin-top: 100px;
 }
 #block-three{
-    background-color: black;
+    background-color: #f5efe9;
     height: 800px;
     color: white;
+    width: auto;
 }
 #block-four{
     height: 800px;
-    background-color:#6f4188;
+    background-color:black;
+    width: auto;
 }
 #block-four img{
     height: 300px;
     width: 450px;
+    margin-top: 70px;
+    justify-items: left;
+}
+.section-txt{
+    border: #f5efe9 solid 5px;
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
     margin-right: auto;
-    margin-left: 850px;
-    margin-top: 70px
 }
