@@ -61,9 +61,9 @@ body{
     text-align: center;
 }
 .offcanvas-body img{
-    height: 200px;
-    width: 200px;
-    margin-left: 80px;
+    height: 100px;
+    width: 100px;
+    margin-left: 135px;
     margin-right: auto;
 }
 .carousel-inner{
@@ -82,12 +82,12 @@ body{
 .overlay { 
     color: white;
     position:absolute;
-    z-index:12;
+    z-index:11;
     top:40%;
     left:0;
     width:100%;
     text-align:center;
-    font-family: lora;
+    font-family: 'Zilla Slab', serif;
     font-size: 80px;
   }
   .overlay-subheader{
@@ -160,7 +160,7 @@ span, hr{
 }
 #section-split{
     text-align: center;
-    font-family: 'Bad Script', cursive;
+    font-family:  'Jost', sans-serif;
     font-size: 17px;
     background-image: url('img/home-bg-one.png');
     background-size: cover;
@@ -251,9 +251,31 @@ span, hr{
     margin-right: auto;
 }
 #block-four img{
-    height: 300px;
-    width: 450px;
-    margin-top: 70px;
+    height: 400px;
+    width: 300px;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 10vh;
+    margin-right: auto;
+}
+.b4txtrow{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-family: Helpa Slab;
+}
+.b4txtheaderrow{
+    letter-spacing: 5px;
+    font-size: 45px;
+    font-family: 'Oranienbaum', serif;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    text-decoration: underline 1px;
+    text-align: center;
+}
+.b4-desctxt{
+    border: #A22D5A solid 1px;
 }
 .section-txt{
     border: #f5efe9 solid 5px;
@@ -269,6 +291,9 @@ a{
     color: black;
 }
 
+
+
+/**//**//**//**//**//**//**//**//**//**//**/
 
 
 
