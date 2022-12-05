@@ -1,5 +1,3 @@
-
-html, 
 body{
     background-color:black;
     margin: 0;
@@ -7,18 +5,13 @@ body{
     width:100%;
     padding:0;
 }
-.carousel,
-.item,
-.active{
-    height:100%;
-}
  .carousel-inner{
      height:100%;
 }
 .footer{
     height: 350px;
-    background-color:#F8CEDE;
-    box-shadow: inset 0px 2px 15px 20px #ECBABA;
+    background-color:#ECBABA;
+    box-shadow: inset 0px 4px 4px #bb9393;
     position: absolute;
 }
 #myBtn {
@@ -105,7 +98,7 @@ body{
 }
 .fter-header{
     font-family: 'Nanum Myeongjo', serif;
-    font-size: 28px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 0em;
@@ -146,14 +139,14 @@ span, hr{
     color: black;
 }
 .footer hr{
-    color: #F8CEDE;
+    color:#ECBABA;
     margin: 8px;
 }
 #section-split{
     text-align: center;
     font-family: 'Bad Script', cursive;
     font-size: 17px;
-    height: 750px;
+    height: 100%;
     background-image: url('img/home-bg-one.png');
     background-size: cover;
 }
@@ -162,10 +155,32 @@ span, hr{
     margin-left: auto;
     margin-right: auto;
 }
+.blocktxt-header{
+    letter-spacing: 5px;
+    font-size: 60px;
+    font-family: 'Oranienbaum', serif;
+    margin-left: 150px;
+    margin-right: auto;
+    margin-top: 250px;
+    color: white;
+    text-decoration: underline 1px;
+}
+
+.b2txt{
+    margin-left: 150px;
+    color: white;
+    font-size: 25px;
+    font-family: Helpa Slab;
+}
+
+#servicebtn{
+    margin-left: 150px;
+    color: black;
+}
 #block-two{
     background-color: black;
     background-size: cover;
-    height:800px;
+    height:100%;
     width: auto;
 }
 #block-two img{
@@ -173,17 +188,48 @@ span, hr{
     width: 650px;
     margin-left: 150px;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 170px;
+    border: white solid 30px;
+    max-width: 100%;
+    max-height: 100%;
+    float: right;
 }
 #block-three{
     background-color: #f5efe9;
-    height: 800px;
+    height: 100%;
     color: white;
     width: auto;
 }
+.b3txt{
+    margin-left: 150px;
+    color: black;
+    font-size: 25px;
+    font-family: Helpa Slab;
+}
+#block-three .blocktxt-header{
+    letter-spacing: 5px;
+    font-size: 60px;
+    font-family: 'Oranienbaum', serif;
+    margin-left: 150px;
+    margin-right: auto;
+    margin-top: 250px;
+    color: black;
+    text-decoration: underline 1px;
+}
+#block-three img{
+    height: 450px;
+    width: 650px;
+    margin-left: auto;
+    margin-right: 150px;
+    margin-top: 170px;
+    border: white solid 30px;
+    max-width: 100%;
+    max-height: 100%;
+    float: right;
+}
 #block-four{
-    height: 800px;
-    background-color:black;
+    height: 100%;
+    background-color:white;
     width: auto;
 }
 #block-four img{
@@ -199,4 +245,74 @@ span, hr{
     height: fit-content;
     margin-left: auto;
     margin-right: auto;
+    height: 550px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+#gallery-pics{
+    background-color: #f5efe9;
+    height: 2200px;
+    color: white;
+    width: auto;
+}
+.bg-gal{
+    background-color: #f5efe9;
+}
+.gal-header{
+    font-size: 60px;
+    margin-top: 200px;
+    color: #000000;
+    font-family: Lora;
+    background-color: #ECBABA;
+    margin-left: 400px;
+    margin-right: auto;
+    line-height: 123px;
+    text-decoration-line: underline;
+    border: #ECBABA solid 1px;
+    padding: 4px;
+    width: 290px;
+}
+.rect{
+    position: absolute;
+    width: 330px;
+    height: 70px;
+    background: #ECBABA;
+    box-shadow: -10px -10px 0px #cca3b2;
+    margin-left:300px;
+    text-align: right;
+}
+.galleryrow img{
+    margin-left: 100px;
+    margin-right: auto;
+    margin-bottom: 100px;
+    background: url(gallery2.png);
+    box-shadow: -24px 24px 0px #000000;
+}
+.galcol img{
+    height: 400px;
+    width: 400px;
+}
+.top3{
+    margin-top: 200px;
+    max-width: 100%;
+    max-height: 100%;
+    background-size: contain;
+}
+.top2{
+    margin-top: 400px;
+    max-width: 100%;
+    max-height: 100%;
+    background-size: contain;
+}
+.top1{
+    margin-top: 600px;
+    max-width: 100%;
+    max-height: 100%;
+    background-size: contain;
 }
