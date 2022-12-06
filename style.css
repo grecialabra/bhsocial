@@ -90,11 +90,12 @@ body{
     left:0;
     width:100%;
     text-align:center;
-    font-family: 'Zilla Slab', serif;
+    font-family: 'Cormorant', serif;
     font-size: 80px;
   }
   .overlay-subheader{
     font-size: 45px;
+    font-family: 'Cormorant', serif;
   }
 .carousel-item img{
     position: absolute;
@@ -168,6 +169,7 @@ span, hr{
     background-image: url('img/home-bg-one.png');
     background-size: cover;
     height: 100%;
+    display: block;
 }
 #section-split hr{
     width: 400px;
@@ -219,8 +221,12 @@ span, hr{
     color: white;
     width: auto;
 }
+#gallerybtn{
+    margin-left: 100px;
+    color: black;
+}
 .b3txt{
-    margin-left: 120px;
+    margin-left: 100px;
     color: black;
     font-size: 25px;
     font-family: Helpa Slab;
@@ -229,7 +235,7 @@ span, hr{
     letter-spacing: 5px;
     font-size: 60px;
     font-family: 'Oranienbaum', serif;
-    margin-left: 120px;
+    margin-left: 100px;
     margin-right: auto;
     margin-top: 250px;
     color: black;
@@ -239,7 +245,7 @@ span, hr{
     height: 450px;
     width: 650px;
     margin-left: auto;
-    margin-right: 85px;
+    margin-right: 60px;
     margin-top: 170px;
     border: white solid 30px;
     max-width: 100%;
@@ -252,6 +258,7 @@ span, hr{
     width: auto;
     margin-left: auto;
     margin-right: auto;
+    display: block;
 }
 .image{
     opacity: 1;
@@ -271,6 +278,9 @@ span, hr{
     -ms-transform: translate(-50%, -50%);
     text-align: center;
 }
+.container {
+    position: relative;
+  }
 .container:hover .image {
     opacity: 0.3;
 }  
@@ -282,6 +292,10 @@ span, hr{
     color: black;
     font-size: 16px;
     padding: 16px 32px;
+}
+.text a{
+    font-family: helpa slab;
+    font-size: large;
 }
 #block-four img{
     height: 400px;
