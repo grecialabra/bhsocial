@@ -79,6 +79,9 @@ body{
     height: 55px;
     width: 55px;
 }
+.logo-fter:hover{
+    opacity: 0.70;
+}
 .overlay { 
     color: white;
     position:absolute;
@@ -254,9 +257,27 @@ span, hr{
     height: 400px;
     width: 300px;
     margin-top: 50px;
-    text-align: center;
-    margin-left: 10vh;
+    margin-left: 16vh;
     margin-right: auto;
+    display: block;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+.b4-overlay-txt{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+#block-four .overlay:hover{
+    background-color: #c25d84;
+    opacity: 0.85;
 }
 .b4txtrow{
     text-align: center;
