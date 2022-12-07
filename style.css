@@ -1,3 +1,6 @@
+
+/**//**//**//**//**//*home page*//**//**//**//**//**/
+
 html, 
 body{
     background-color:black;
@@ -376,7 +379,7 @@ a{
 
 
 
-/**//**//**//**//**//**//**//**//**//**//**/
+/**//**//**//**//**//*gallery page*//**//**//**//**//**/
 
 
 
@@ -408,8 +411,8 @@ a{
     width: 330px;
     height: 70px;
     background: #ECBABA;
-    box-shadow: -10px -10px 0px #cca3b2;
-    margin-left:300px;
+    box-shadow: -10px -10px 0px #ebcbd6;
+    margin-left:250px;
     text-align: right;
 }
 .galleryrow img{
@@ -444,3 +447,32 @@ a{
     max-height: 100%;
     background-size: contain;
 }
+
+
+
+/**//**//**//**//**//*services page*//**//**//**//**//**/
+
+
+
+#bg-ser{
+    background-color: white;
+}
+#service-txt{
+    background-color: white;
+    height: 2000px;
+}
+.ser-txt-top{
+    margin-top: 200px;
+    text-align: center;
+}
+.ser-txt-bottom{
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+
+/**//**//**//**//**//*products page*//**//**//**//**//**/
+
+
+
