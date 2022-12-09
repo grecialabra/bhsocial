@@ -500,6 +500,7 @@ a{
     font-family: helpa slab;
     line-height: 70px;
     border: #c25d84 solid 5px;
+    box-shadow: 15px 15px 5px #db9fb6;
     height: 430px;
     width: 250px;
     text-align: center;
@@ -530,6 +531,9 @@ a{
     line-height: 40px;
     margin-left: 50px;
 }
+a:hover{
+    color: #887d82;
+}
 #ser-block{
     background-size: cover;
     height: 100%;
@@ -549,7 +553,18 @@ a{
     max-height: 100%;
     display: block;
 }
-/**//**//**//**//**//*products page*//**//**//**//**//**/
+
+
+
+/**//**//**//**//**//*service list page*//**//**//**//**//**/
+
+
+
+#serlist{
+    background-color: white;
+    height: 100%;
+    background-size: cover;
+}
 
 
 
