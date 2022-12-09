@@ -5,11 +5,11 @@ html,
 body{
     background-color:black;
     margin: 0;
-    height:100%;
-    width:100%;
+    height: 90vh;
+    height: calc(100vh - 50px);
     padding:0;
 }
- .carousel-inner{
+.carousel-inner{
      height:100%;
 }
 .footer{
@@ -176,7 +176,6 @@ span, hr{
 }
 #section-split{
     text-align: center;
-    font-family:  'Raleway', sans-serif;
     font-size: 17px;
     background-image: url('img/home-bg-one.png');
     background-size: cover;
@@ -198,14 +197,12 @@ span, hr{
     color: white;
     text-decoration: underline 1px;
 }
-
 .b2txt{
     margin-left: 150px;
     color: white;
     font-size: 25px;
     font-family: Helpa Slab;
 }
-
 #servicebtn{
     margin-left: 150px;
     color: black;
@@ -312,7 +309,8 @@ span, hr{
     color: black;
     font-size: 23px;
     padding: 16px 32px;
-    font-family: 'Raleway', sans-serif;
+    font-family: LORA;
+    font-weight: bolder;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.75);
     border-radius: 16px;
 }
@@ -334,6 +332,7 @@ span, hr{
     color: black;
     font-size: 25px;
     font-family: 'Raleway', sans-serif;
+    font-style: bold;
 }
 .b4txtheaderrow{
     letter-spacing: 5px;
@@ -346,23 +345,21 @@ span, hr{
     text-align: center;
 }
 .b4-desctxt{
-    font-size: 21px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
+    font-size: 18px;
+    font-family: Helpa Slab;
     line-height: 20px;
-    letter-spacing: 1px;
     text-align: center;
     border-style: solid;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.75);
-    border-color: rgb(241, 241, 226);
+    border-color: #ECBABA;
     padding: 7px;
-    border-radius: 15px;
-    background-color: rgb(241, 241, 226);
+    border-radius: 100%;
+    background-color: #fff6fa;
     width: 390px;
     height: fit-content;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 .section-txt{
     border: #f5efe9 solid 5px;
@@ -373,6 +370,7 @@ span, hr{
     margin-right: auto;
     height: 550px;
     float: inline-end;
+    font-family: 'Nanum Myeongjo', serif;
 }
 a{
     text-decoration: none;
@@ -407,6 +405,9 @@ a{
     border: #ECBABA solid 1px;
     padding: 4px;
     width: 290px;
+    display: block;
+    float: left;
+    position: absolute;
 }
 .rect{
     position: absolute;
@@ -459,10 +460,12 @@ a{
 #bg-ser{
     background-color: white;
 }
-#ser-txt-header{
-    margin-left: 1300px;
-    text-align: left;
-    margin-top: 90px;
+#ser-header-txt{
+    text-align: center;
+    font-family: Lora;
+    margin-top: 100px;
+    background-color: white;
+    font-size: 60px;
 }
 #service-txt{
     background-color: white;
@@ -472,22 +475,38 @@ a{
 #service-txt-group{
     border: #000000 solid 7px;
     height: auto;
-    margin-top: 100px;
     width: 500px;
     height: 500px;
-    margin-left: 350px;
+    margin-left: auto;
     margin-right: auto;
+    margin-top: 60px;
     border-radius: 100%;
     background-color: #f5efe9;
+    display: block;
 }
-.ser-txt-boxlist{
-    height: 600px;
-    width: 400px;
-    border: #c25d84 solid 5px;
-    margin-right: 300px;
+.ser-hr1{
+    width: 660px;
     margin-left: auto;
+    margin-right: auto;
 }
-
+#ser-block p{
+    display: block;
+    text-align: right;
+    margin-right: 400px;
+}
+.sertxt2{
+    margin-top: 200px;
+    font-size: 30px;
+    font-family: helpa slab;
+    line-height: 70px;
+    border: #c25d84 solid 5px;
+    height: 430px;
+    width: 250px;
+    text-align: center;
+    float: right;
+    margin-left: 150px;
+    background-color: white;
+}
 .ser-txt-top{
     margin-top: 100px;
     text-align: left;
@@ -511,13 +530,25 @@ a{
     line-height: 40px;
     margin-left: 50px;
 }
-
 #ser-block{
     background-size: cover;
     height: 100%;
     background-color: #faf2f6;
 }
-
+.sertxt2 a{
+    font-family: 'Bad Script';
+}
+#ser-block img{
+    height: 600px;
+    width: 400px;
+    border: 10px solid #000000;
+    filter: drop-shadow(25px 25px 4px rgba(0, 0, 0, 0.5));
+    margin-left: 200px;
+    margin-top: 120px;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
 /**//**//**//**//**//*products page*//**//**//**//**//**/
 
 
