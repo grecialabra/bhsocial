@@ -31,7 +31,17 @@
                     <a class="nav-link" aria-current="page" href="index.html">Home</a>
                   </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="services.html">Services</a>
+                  <a class="nav-link dropdown-toggle" href="services.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     Services
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Hair Styling</a></li>
+                    <li><a class="dropdown-item" href="#">Hair Care</a></li>
+                    <li><a class="dropdown-item" href="#">Face</a></li>
+                    <li><a class="dropdown-item" href="#">Make-up</a></li>
+                    <li><a class="dropdown-item" href="#">Eyebrows</a></li>
+                    <li><a class="dropdown-item" href="#">Eyelashes</a></li>
+                  </ul>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="gallery.html">Gallery</a>
@@ -53,22 +63,38 @@
 
       
       <div id="service-txt">
-          <div id="ser-header-txt">
-        <p>
-          SERVICES
-          <hr class="ser-hr1">
-        </p>
+        <div id="ser-header-txt">
+          <p>
+            SERVICES
+            <hr class="ser-hr1">
+          </p>
       </div>
-        <div id="service-txt-group">
-          <p class="ser-txt-top">
-            We do a variety of services!
-          </p>
-          <p class="ser-txt-bottom">
-            ~
-            <br>
-            <br>
-            From hairstyling and make-up to event packages for special events.
-          </p>
+        <div class="row">
+          <div class="col-sm-4" id="service-txt-group">
+            <p class="ser-txt-top">
+              We do a variety of services!
+            </p>
+            <p class="ser-txt-bottom">
+              ~
+              <br>
+              <br>
+              From hairstyling and make-up to event packages for special events.
+            </p>
+          </div>
+          <div class="col-sm-4" id="service-txt-group2">
+            <p class="ser-txt-top2">
+              ✆ Call today!
+            </p>
+            <p class="ser-txt-bottom2">
+              ~
+              <br>
+              <br>
+              Our Prices may vary depending on hair type/length, call now to ask about pricing.
+            </p>
+          </div>
+          <div class="col-sm-4" id="service-txt-group3">
+            
+          </div>
         </div>
       </div>
 
@@ -87,7 +113,7 @@
               <br>
               Eyelashes
               <br>
-              <a href="servicelist.html" id="book-now">Book Now ▶</a>
+              <a href="servicelist.html" id="book-now"><u>Book Now</u> ▶</a>
             </p>
         </div>
         <div class="row">
@@ -135,6 +161,8 @@
             <div class="cp-info">
               <p>
                 PHOTOS TAKEN FROM @beautyhousesocial ON INSTAGRAM | @BH Social ON FACEBOOK
+                <br>
+                WEBITE BY TechTip
               </p>
             </div>
           </div>

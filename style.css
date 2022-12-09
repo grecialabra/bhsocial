@@ -23,7 +23,7 @@ body{
     font-family: helpa slab;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 70px;
+    margin-top: 60px;
 }
 #myBtn {
     display: none;
@@ -80,6 +80,11 @@ body{
     height: 950px;
     width: auto;
     background-color: black;
+}
+.dropdown-menu{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 .logo{
     align-items: center;
@@ -469,7 +474,7 @@ a{
 }
 #service-txt{
     background-color: white;
-    height: 100%;
+    height: 1100px;
     background-size: cover;
 }
 #service-txt-group{
@@ -479,10 +484,38 @@ a{
     height: 500px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 60px;
+    
     border-radius: 100%;
     background-color: #f5efe9;
     display: block;
+}
+#service-txt-group2{
+    border: #000000 solid 7px;
+    height: auto;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 350px;
+    border-radius: 100%;
+    background-color: #f5efe9;
+    display: block;
+    
+}
+#service-txt-group3{
+    border: #000000 solid 7px;
+    height: auto;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: 200px;
+    margin-top: 600px;
+    border-radius: 100%;
+    background-color: #f5efe9;
+    display: block;
+    background-image: url(img/placeholder.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .ser-hr1{
     width: 660px;
@@ -492,7 +525,7 @@ a{
 #ser-block p{
     display: block;
     text-align: right;
-    margin-right: 400px;
+    margin-right: 250px;
 }
 .sertxt2{
     margin-top: 200px;
@@ -505,7 +538,8 @@ a{
     width: 250px;
     text-align: center;
     float: right;
-    margin-left: 150px;
+
+    margin-left: 200px;
     background-color: white;
 }
 .ser-txt-top{
@@ -531,6 +565,26 @@ a{
     line-height: 40px;
     margin-left: 50px;
 }
+.ser-txt-top2{
+    margin-top: 25px;
+    text-align: right;
+    text-transform: lowercase;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Hepta Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    margin-right: 55px;
+}
+.ser-txt-bottom2{
+    margin-top: 50px;
+    text-align: right;
+    font-family: 'Hepta Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin-right: 30px;
+}
 a:hover{
     color: #887d82;
 }
@@ -548,7 +602,7 @@ a:hover{
     border: 10px solid #000000;
     filter: drop-shadow(25px 25px 4px rgba(0, 0, 0, 0.5));
     margin-left: 200px;
-    margin-top: 120px;
+    margin-top: 100px;
     max-width: 100%;
     max-height: 100%;
     display: block;
@@ -568,3 +622,29 @@ a:hover{
 
 
 
+/**//**//**//**//**//*Products page*//**//**//**//**//**/
+
+#prod-block img{
+    
+   
+}
+.prodtxt2{
+    margin-top: 200px;
+    font-size: 30px;
+    font-family: helpa slab;
+    line-height: 70px;
+    border: #c25d84 solid 5px;
+    box-shadow: 15px 15px 5px #db9fb6;
+    height: 430px;
+    width: 400px;
+    text-align: center;
+    float: right;
+
+    margin-left: 200px;
+    background-color: white;
+}
+#prod-block p{
+    display: block;
+    text-align: center;
+    margin-right: 890px;
+}
