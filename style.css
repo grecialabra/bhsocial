@@ -625,7 +625,15 @@ a:hover{
 /**//**//**//**//**//*Products page*//**//**//**//**//**/
 
 #prod-block img{
-    
+    height: 600px;
+    width: 400px;
+    border: 10px solid #000000;
+    filter: drop-shadow(25px 25px 4px rgba(0, 0, 0, 0.5));
+    margin-left: 200px;
+    margin-top: 100px;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
    
 }
 .prodtxt2{
@@ -647,4 +655,86 @@ a:hover{
     display: block;
     text-align: center;
     margin-right: 890px;
+}
+.prod-txt-top{
+    margin-top: 100px;
+    text-align: left;
+    text-transform: lowercase;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Hepta Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    text-transform: lowercase;
+    margin-left: 60px;
+}
+#prod-txt-group{
+    border: #000000 solid 7px;
+    height: auto;
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    border-radius: 100%;
+    background-color: #f5efe9;
+    display: block;
+}
+#prod-block{
+    background-size: cover;
+    height: 100%;
+    background-color: #faf2f6;
+}
+
+
+
+
+
+
+
+.membtxt2{
+    margin-top: 200px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;;
+    line-height: 70px;
+    border: #c25d84 solid 5px;
+    box-shadow: 15px 15px 5px #db9fb6;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    float: right;
+
+    margin-left: 200px;
+    background-color: black;
+    
+}
+#memb-block img{
+    height: 800px;
+    width: 500px;
+    border: 10px solid #000000;
+    filter: drop-shadow(25px 25px 4px rgba(0, 0, 0, 0.5));
+    margin-left: 200px;
+    margin-top: 100px;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+   
+}
+#memb-txt-group{
+    border: #000000 solid 7px;
+    height: auto;
+    width: 100px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    border-radius: 100%;
+    background-color: #f5efe9;
+    display: block;
+}
+#memb-block{
+    background-size: cover;
+    height: 100%;
+    background-color: #faf2f6;
 }
