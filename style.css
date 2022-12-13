@@ -711,6 +711,7 @@ a:hover{
     display: block;
     text-align: center;
     margin-right: 890px;
+    background-color: white;
 }
 .prod-txt-top{
     margin-top: 100px;
@@ -742,6 +743,22 @@ a:hover{
     height: 100%;
     background-color: #faf2f6;
 }
+.prod-header{
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 60px;
+    font-family: Lora;
+
+}
+.products-list-alltxt{
+    font-family: helpa slab;
+    line-height: 45px;
+}
+.bg-prod{
+    background-color: #f5efe9;
+}
 
 
 
@@ -761,11 +778,11 @@ a:hover{
     text-align: center;
 
     margin-left: 200px;
-    background-color: black;
+    background-color: white;
     
 }
 #memb-block img{
-    height: 800px;
+    height: 900px;
     width: 500px;
     border: 10px solid #000000;
     filter: drop-shadow(25px 25px 4px rgba(0, 0, 0, 0.5));
@@ -793,3 +810,40 @@ a:hover{
     height: 100%;
     background-color: #faf2f6;
 }
+.memb-header{
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 60px;
+    font-family: Lora;
+
+}
+.memb-list-alltxt{
+    font-family: helpa slab;
+    line-height: 45px;
+}
+.bg-memb{
+    background-color: #f5efe9;
+}
+
+
+
+
+.pol-header{
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 60px;
+    font-family: Lora;
+
+}
+.policy-list-alltxt{
+    font-family: helpa slab;
+    line-height: 45px;
+}
+.bg-pol{
+    background-color: #f5efe9;
+}
+
