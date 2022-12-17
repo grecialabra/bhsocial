@@ -13,43 +13,53 @@
     <button onclick="topFunction()" id="myBtn" title="Go to top">^<br>^<br>^</button>
 
     <nav class="navbar fixed-top">
-        <div class="container-fluid">
-          <a href="index.html" class="navbar-brand"><img src="img/logo.png" class="navbar-header-logo"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-2"> 
-                <img src="img/logo.png">
-                <hr>
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                  </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="services.html">Services</a>
+      <div class="container-fluid">
+        <a href="index.html" class="navbar-brand"><img src="img/logo.png" class="navbar-header-logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-2"> 
+              <img src="img/logo.png">
+              <hr>
+              <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link dropdown-toggle active" href="services.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="servicelist.html#ser-hair-styling">Hair Styling</a></li>
+                  <li><a class="dropdown-item" href="servicelist.html#ser-hair-care">Hair Care</a></li>
+                  <li><a class="dropdown-item" href="servicelist.html#ser-face">Face</a></li>
+                  <li><a class="dropdown-item" href="servicelist.html#ser-makeup">Make-up</a></li>
+                  <li><a class="dropdown-item" href="servicelist.html#ser-eyebrows">Eyebrows</a></li>
+                  <li><a class="dropdown-item" href="servicelist.html#ser-eyelashes">Eyelashes</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="products.html">Products</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="gallery.html">Gallery</a>
+                  <a class="nav-link" href="membership.html">Membership</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="products.html">Products</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="membership.html">Membership</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="policies.html">Policies</a>
-                  </li>
-              </ul>
-            </div>
+                  <a class="nav-link" href="policies.html">Policies</a>
+                </li>
+            </ul>
           </div>
         </div>
-      </nav>
+      </div>
+    </nav>
 
         <div class="container-fluid" id="serlist">
             <div class="container serlist-header">
@@ -59,7 +69,9 @@
             <div class="service-list-alltxt">
 
               <div class="serlist-txtblock">
-                <p class="serlist-txt-header">EYEBROWS</p>
+                <p id="ser-eyebrows" class="serlist-txt-header">EYEBROWS
+                  <hr class="serlist-hr">
+                </p>
                   <div class="row"> 
                       <div class="card col-sm-6 serlist-txt">
                         <p class="card-title">
@@ -103,7 +115,9 @@
               </div>
 
               <div class="serlist-txtblock">
-                <p class="serlist-txt-header">EYELASHES</p>
+                <p id="ser-eyelashes" class="serlist-txt-header">EYELASHES
+                  <hr class="serlist-hr">
+                </p>
                 <div class="row"> 
                       <div class="card col-sm-6 serlist-txt">
                         <p class="card-title">
@@ -167,7 +181,9 @@
               </div>
 
               <div class="serlist-txtblock">
-                <p class="serlist-txt-header">FACE</p>
+                <p id="ser-face" class="serlist-txt-header">FACE
+                  <hr class="serlist-hr">
+                </p>
                 <div class="row"> 
                     <div class="card col-sm-6 serlist-txt">
                         <p class="card-title">
@@ -262,7 +278,9 @@
               </div>
 
               <div class="serlist-txtblock">
-                <p class="serlist-txt-header">HAIR CARE</p>
+                <p id="ser-hair-care" class="serlist-txt-header">HAIR CARE
+                  <hr class="serlist-hr">
+                </p>
                 <div class="row"> 
                     <div class="card col-sm-6 serlist-txt">
                         <p class="card-title">
@@ -286,31 +304,9 @@
               </div>
 
               <div class="serlist-txtblock">
-                <p class="serlist-txt-header">HAIR CARE</p>
-                <div class="row"> 
-                    <div class="card col-sm-6 serlist-txt">
-                        <p class="card-title">
-                          Keratin Express Treatment
-                        </p>
-                          <br>
-                        <p class="card-text">
-                          2 hr 15 min ~ $150.00
-                        </p>
-                      </div>
-                      <div class="card col-sm-6 serlist-txt">
-                        <p class="card-title">
-                          Keratin Treatment - 3 month
-                        </p>
-                          <br>
-                        <p class="card-text">
-                          2 hr ~ $300.00
-                        </p>
-                    </div>
-                </div>
-              </div>
-
-              <div class="serlist-txtblock">
-                <p class="serlist-txt-header">HAIR COLOR</p>
+                <p class="serlist-txt-header">HAIR COLOR
+                  <hr class="serlist-hr">
+                </p>
                 <div class="row"> 
                     <div class="card col-sm-6 serlist-txt">
                         <p class="card-title">
@@ -394,7 +390,9 @@
               </div>
 
               <div class="serlist-txtblock">
-                <p class="serlist-txt-header">HAIR STYLING</p>
+                <p id="ser-hair-styling" class="serlist-txt-header">HAIR STYLING
+                  <hr class="serlist-hr">
+                </p>
                 <div class="row"> 
                     <div class="card col-sm-6 serlist-txt">
                         <p class="card-title">
@@ -535,9 +533,164 @@
                       </p>
                     </div>
                 </div>
+                <div class="row"> 
+                  <div class="card col-sm-6 serlist-txt">
+                      <p class="card-title">
+                        BH Waves long /+ Extentions
+                      </p>
+                        <br>
+                      <p class="card-text">
+                        1 hr 30 min ~ $55.00
+                      </p>
+                    </div>
+                </div>
               </div>
 
+              <div class="serlist-txtblock">
+                <p id="ser-makeup" class="serlist-txt-header">MAKEUP
+                  <hr class="serlist-hr">
+                </p>
+                <div class="row"> 
+                    <div class="card col-sm-6 serlist-txt">
+                        <p class="card-title">
+                          BH Eyes and lips
+                        </p>
+                          <br>
+                        <p class="card-text">
+                          30 min ~ $30.00
+                        </p>
+                      </div>
+                      <div class="card col-sm-6 serlist-txt">
+                        <p class="card-title">
+                          BH Eyes Only
+                        </p>
+                          <br>
+                        <p class="card-text">
+                          20 min ~ $25.00
+                        </p>
+                    </div>
+                </div>
+                <div class="row"> 
+                  <div class="card col-sm-6 serlist-txt">
+                      <p class="card-title">
+                        BH Full Face
+                      </p>
+                        <br>
+                      <p class="card-text">
+                        1 hr $60.00
+                      </p>
+                    </div>
+                    <div class="card col-sm-6 serlist-txt">
+                      <p class="card-title">
+                        BH Half Makeup apllication
+                      </p>
+                        <br>
+                      <p class="card-text">
+                        30 min ~ $45.00
+                      </p>
+                    </div>
+                </div>
+                <div class="row"> 
+                  <div class="card col-sm-6 serlist-txt">
+                      <p class="card-title">
+                        Lash Extension Strips
+                      </p>
+                        <br>
+                      <p class="card-text">
+                        10 min ~ $15.00
+                      </p>
+                  </div>
+                </div>
+              </div>
 
+              <div class="serlist-txtblock">
+                <p class="serlist-txt-header">MEDICAL SPA TREATMENTS
+                  <hr class="serlist-hr">
+                </p>
+                <div class="row"> 
+                    <div class="card col-sm-6 serlist-txt">
+                        <p class="card-title">
+                          Botox
+                        </p>
+                          <br>
+                        <p class="card-text">
+                          30 min 
+                        </p>
+                      </div>
+                      <div class="card col-sm-6 serlist-txt">
+                        <p class="card-title">
+                          Injectable Consultation
+                        </p>
+                          <br>
+                        <p class="card-text">
+                          30 min
+                        </p>
+                    </div>
+                </div>
+                <div class="row"> 
+                  <div class="card col-sm-6 serlist-txt">
+                      <p class="card-title">
+                        Juvederm Filler
+                      </p>
+                        <br>
+                      <p class="card-text">
+                        1 hr 
+                      </p>
+                    </div>
+                </div>
+              </div>
+
+              <div class="serlist-txtblock">
+                <p class="serlist-txt-header">TANNING
+                  <hr class="serlist-hr">
+                </p>
+                <div class="row"> 
+                    <div class="card col-sm-6 serlist-txt">
+                        <p class="card-title">
+                          BH Rapid Tan
+                        </p>
+                          <br>
+                        <p class="card-text">
+                          2 hr 15 min ~ $150.00
+                        </p>
+                      </div>
+                      <div class="card col-sm-6 serlist-txt">
+                        <p class="card-title">
+                          BH Spray Tan
+                        </p>
+                          <br>
+                        <p class="card-text">
+                          30 min ~ $35.00
+                        </p>
+                    </div>
+                </div>
+              </div>
+
+              <div class="serlist-txtblock">
+                <p class="serlist-txt-header">WAXING
+                  <hr class="serlist-hr">
+                </p>
+                <div class="row"> 
+                    <div class="card col-sm-6 serlist-txt">
+                        <p class="card-title">
+                          Brows
+                        </p>
+                          <br>
+                        <p class="card-text">
+                          15 min ~ $15.00
+                        </p>
+                      </div>
+                      <div class="card col-sm-6 serlist-txt">
+                        <p class="card-title">
+                          Lip + Chin
+                        </p>
+                          <br>
+                        <p class="card-text">
+                          15 min ~ $10.00
+                        </p>
+                    </div>
+                </div>
+              </div>
             </div> 
           </div>
 

@@ -685,6 +685,11 @@ a:hover{
 .serlist-txt-header{
     margin-left: 20vh;
     margin-top: 10vh;
+    font-size: 25px;
+}
+.serlist-hr{
+    width: 800px;
+    margin-left: 15vh;
 }
 
 
